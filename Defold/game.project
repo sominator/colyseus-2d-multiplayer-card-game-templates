@@ -1,0 +1,22 @@
+[bootstrap]
+main_collection = /main/main.collectionc
+
+[script]
+shared_state = 1
+
+[display]
+width = 1920
+height = 1080
+
+[android]
+input_method = HiddenInputField
+
+[project]
+title = 2D Card Game
+dependencies#0 = https://github.com/britzl/defold-input/archive/master.zip
+dependencies#1 = https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.14.1.zip
+dependencies#2 = https://github.com/defold/extension-websocket/archive/master.zip
+
+[graphics]
+texture_profiles = /main/textureProfile.texture_profiles
+

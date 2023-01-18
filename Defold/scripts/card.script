@@ -1,0 +1,2 @@
+--set "isDraggable" property of card to initially be false
+go.property("isDraggable", false)

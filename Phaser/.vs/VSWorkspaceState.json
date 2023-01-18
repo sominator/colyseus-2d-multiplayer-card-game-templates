@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\client",
+    "\\client\\src",
+    "\\client\\src\\helpers",
+    "\\client\\src\\helpers\\cards",
+    "\\client\\src\\scenes"
+  ],
+  "SelectedNode": "\\client\\src\\helpers\\GameHandler.js",
+  "PreviewInSolutionExplorer": false
+}

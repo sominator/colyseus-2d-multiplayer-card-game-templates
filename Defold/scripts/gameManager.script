@@ -1,0 +1,6 @@
+--store zPosition to be incremented so the active card is always on top
+go.property("zPosition", 0.01)
+--store the number of cards played in the dropzone
+go.property("cardsPlayed", 0)
+--store the number of card backs in the opponent's hand
+go.property("cardsInOpponentHand", 0)

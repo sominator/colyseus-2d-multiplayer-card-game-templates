@@ -1,0 +1,28 @@
+--import button script from /in folder
+local button = require "in.button"
+local pressed = false
+
+function init(self)
+	--register text game object as a button
+	button.acquire()
+	button.register("text", function()
+		print ("Pressing a button!")
+		if not pressed then 
+			--spawn player cards and set their isDraggable property to true
+			for i = 1, 5 do
+				factory.create("/spawner#playerCardFactory", vmath.vector3(110 + (i * 50), 210, 0), nil, {isDraggable = true}, 0.3)
+			end
+			--send message to the client that cards have been drawn
+			msg.post("/client#client", "draw")
+			pressed = true
+		end
+	end)
+end
+
+function final(self)
+	button.unregister()
+end
+
+function on_input(self, action_id, action)
+	button.on_input(action_id, action)
+end
