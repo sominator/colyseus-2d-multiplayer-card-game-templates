@@ -1,0 +1,16 @@
+[gd_scene format=2]
+
+[node name="Card" type="Panel"]
+margin_right = 177.0
+margin_bottom = 255.0
+
+[node name="Label" type="Label" parent="."]
+margin_left = 64.0
+margin_top = 16.0
+margin_right = 88.0
+margin_bottom = 28.0
+rect_scale = Vector2( 2, 2 )
+text = "Back"
+
+[connection signal="mouse_entered" from="." to="." method="OnMouseEntered"]
+[connection signal="mouse_exited" from="." to="." method="OnMouseExited"]

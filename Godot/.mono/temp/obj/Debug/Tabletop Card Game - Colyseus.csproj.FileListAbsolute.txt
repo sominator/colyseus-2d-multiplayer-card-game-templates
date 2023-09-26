@@ -1,0 +1,9 @@
+C:\Users\Som\coding\Godot\3.5\Tabletop Card Game - Colyseus\.mono\temp\obj\Debug\Tabletop Card Game - Colyseus.csproj.AssemblyReference.cache
+C:\Users\Som\coding\Godot\3.5\Tabletop Card Game - Colyseus\.mono\temp\obj\Debug\Tabletop Card Game - Colyseus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Som\coding\Godot\3.5\Tabletop Card Game - Colyseus\.mono\temp\obj\Debug\Tabletop Card Game - Colyseus.AssemblyInfoInputs.cache
+C:\Users\Som\coding\Godot\3.5\Tabletop Card Game - Colyseus\.mono\temp\obj\Debug\Tabletop Card Game - Colyseus.AssemblyInfo.cs
+C:\Users\Som\coding\Godot\3.5\Tabletop Card Game - Colyseus\.mono\temp\obj\Debug\Tabletop Card Game - Colyseus.csproj.CoreCompileInputs.cache
+C:\Users\Som\coding\Godot\3.5\Tabletop Card Game - Colyseus\.mono\temp\bin\Debug\Tabletop Card Game - Colyseus.dll
+C:\Users\Som\coding\Godot\3.5\Tabletop Card Game - Colyseus\.mono\temp\bin\Debug\Tabletop Card Game - Colyseus.pdb
+C:\Users\Som\coding\Godot\3.5\Tabletop Card Game - Colyseus\.mono\temp\obj\Debug\Tabletop Card Game - Colyseus.dll
+C:\Users\Som\coding\Godot\3.5\Tabletop Card Game - Colyseus\.mono\temp\obj\Debug\Tabletop Card Game - Colyseus.pdb

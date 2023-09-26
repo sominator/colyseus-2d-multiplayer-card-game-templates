@@ -1,0 +1,9 @@
+C:\Users\Som\coding\Godot\3.5\HackerBattles\.mono\temp\bin\Debug\HackerBattles.dll
+C:\Users\Som\coding\Godot\3.5\HackerBattles\.mono\temp\bin\Debug\HackerBattles.pdb
+C:\Users\Som\coding\Godot\3.5\HackerBattles\.mono\temp\obj\Debug\HackerBattles.csproj.AssemblyReference.cache
+C:\Users\Som\coding\Godot\3.5\HackerBattles\.mono\temp\obj\Debug\HackerBattles.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Som\coding\Godot\3.5\HackerBattles\.mono\temp\obj\Debug\HackerBattles.AssemblyInfoInputs.cache
+C:\Users\Som\coding\Godot\3.5\HackerBattles\.mono\temp\obj\Debug\HackerBattles.AssemblyInfo.cs
+C:\Users\Som\coding\Godot\3.5\HackerBattles\.mono\temp\obj\Debug\HackerBattles.csproj.CoreCompileInputs.cache
+C:\Users\Som\coding\Godot\3.5\HackerBattles\.mono\temp\obj\Debug\HackerBattles.dll
+C:\Users\Som\coding\Godot\3.5\HackerBattles\.mono\temp\obj\Debug\HackerBattles.pdb

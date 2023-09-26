@@ -1,0 +1,17 @@
+[gd_resource type="StyleBoxTexture" load_steps=2 format=2]
+
+[ext_resource path="res://theme/sci-fi.png" type="Texture" id=1]
+
+[resource]
+content_margin_left = 15.0
+content_margin_right = 16.0
+content_margin_top = 0.0
+content_margin_bottom = 15.0
+texture = ExtResource( 1 )
+region_rect = Rect2( 2, 2, 45, 45 )
+margin_left = 14.836
+margin_right = 15.6848
+margin_top = 14.0424
+margin_bottom = 15.0359
+axis_stretch_horizontal = 1
+axis_stretch_vertical = 1

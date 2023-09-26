@@ -1,0 +1,52 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Som\\coding\\Godot\\3.5\\HackerBattles\\HackerBattles.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Som\\coding\\Godot\\3.5\\HackerBattles\\HackerBattles.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Som\\coding\\Godot\\3.5\\HackerBattles\\HackerBattles.csproj",
+        "projectName": "HackerBattles",
+        "projectPath": "C:\\Users\\Som\\coding\\Godot\\3.5\\HackerBattles\\HackerBattles.csproj",
+        "packagesPath": "C:\\Users\\Som\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Som\\coding\\Godot\\3.5\\HackerBattles\\.mono\\temp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Users\\Som\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Som\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Som\\AppData\\Roaming\\NuGet\\config\\Godot.Offline.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

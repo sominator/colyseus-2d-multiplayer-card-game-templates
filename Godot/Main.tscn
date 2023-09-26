@@ -1,0 +1,55 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://GameManager.cs" type="Script" id=1]
+[ext_resource path="res://Client.gd" type="Script" id=2]
+[ext_resource path="res://CardBack.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Card.tscn" type="PackedScene" id=4]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 640, 140 )
+
+[node name="Main" type="Node2D"]
+
+[node name="Client" type="Node" parent="."]
+script = ExtResource( 2 )
+
+[node name="OpponentZone" type="Panel" parent="."]
+margin_right = 1280.0
+margin_bottom = 280.0
+
+[node name="DropZone" type="Panel" parent="."]
+margin_top = 400.0
+margin_right = 1280.0
+margin_bottom = 680.0
+
+[node name="Area2D" type="Area2D" parent="DropZone"]
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DropZone/Area2D"]
+position = Vector2( 640, 140 )
+shape = SubResource( 1 )
+
+[node name="PlayerZone" type="Panel" parent="."]
+margin_top = 800.0
+margin_right = 1280.0
+margin_bottom = 1080.0
+
+[node name="Button" type="Button" parent="."]
+margin_left = 1424.0
+margin_top = 475.0
+margin_right = 1564.0
+margin_bottom = 525.0
+rect_scale = Vector2( 2, 2 )
+text = "Draw Cards"
+
+[node name="GameManager" type="Node" parent="."]
+script = ExtResource( 1 )
+CardScene = ExtResource( 4 )
+CardBackScene = ExtResource( 3 )
+
+[connection signal="draw_cards" from="Client" to="GameManager" method="DrawCards"]
+[connection signal="dropped_card" from="Client" to="GameManager" method="RenderDrop"]
+[connection signal="render_cards" from="Client" to="GameManager" method="RenderCards"]
+[connection signal="button_down" from="Button" to="Client" method="_on_button_down"]
+[connection signal="CardDropped" from="GameManager" to="Client" method="_on_card_dropped"]
+[connection signal="CardsDrawn" from="GameManager" to="Client" method="_on_cards_drawn"]
